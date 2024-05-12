@@ -4,7 +4,7 @@ body::-webkit-scrollbar {
   }
   
   body::-webkit-scrollbar-track {
-    background: #0F172A;        /* цвет зоны отслеживания */
+    background: #580c76;        /* цвет зоны отслеживания */
   }
   
   body::-webkit-scrollbar-thumb {
@@ -22,7 +22,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 20px;
-    background-color: #0F172A;
+    background-color: #3a0f4c;
     color: #F8FAFC;
 }
 
@@ -38,6 +38,7 @@ img {
 a {
     text-decoration: none;
     color: inherit;
+    transition: 0.2s;
 }
 
 ul {
@@ -96,7 +97,7 @@ ul {
 }
 
 .card__text {
-    border-top: 1px solid rgba(14, 165, 233, 1);
+    border-top: 1px solid rgb(120, 14, 118);
     width: inherit;
     display: flex;
     padding: 50px 0 20px;
@@ -206,7 +207,7 @@ ul {
 
 .form__button:hover {
     color: #F8FAFC;
-    background:  rgba(14, 165, 233, 1);
+    background:  rgb(90, 9, 110);
 }
 
 .main {
@@ -252,4 +253,44 @@ ul {
 .main__link:hover {
     color: #F8FAFC;
     background:  rgba(14, 165, 233, 1);
+}
+
+
+.main-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 30%;
+    padding: 50px 30px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.login label {
+    width: 60%;
+}
+
+
+.reg__link {
+    height: fit-content;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.error {
+    font-size: 10px;
+    color: #fff;
+}
+
+.login__link:hover {
+    color: rgba(14, 165, 233, 1);
 }
